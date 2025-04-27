@@ -1,0 +1,24 @@
+k8s-3tier-app/
+│
+├── frontend-flask/
+│   ├── app.py
+│   ├── requirements.txt
+│   ├── Dockerfile
+│   └── k8s/
+│       ├── deployment.yaml
+│       └── service.yaml
+│
+├── backend-node/
+│   ├── server.js
+│   ├── package.json
+│   ├── Dockerfile
+│   └── k8s/
+│       ├── deployment.yaml
+│       └── service.yaml
+│
+├── mongodb/
+│   └── k8s/
+│       ├── deployment.yaml
+│       └── service.yaml
+│
+└── namespace.yaml   (optional - if you want everything inside 1 namespace)
